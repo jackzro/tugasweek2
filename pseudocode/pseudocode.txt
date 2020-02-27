@@ -57,7 +57,7 @@ START
             ELSE IF (kondisiKuku EQUAL "pendek")
                 PRINT siswa dipuji oleh guru
             END IF 
-            INCREMENT by 1
+            INCREMENT anak by 1
         END FOR 
 END
 
