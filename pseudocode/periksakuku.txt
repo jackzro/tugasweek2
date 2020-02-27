@@ -1,6 +1,6 @@
 START
     SET anak to 1
-    SET kondisiKuku
+    SET kondisiKuku to any value
         FOR anak 1 to 40
             READ kondisiKuku
             IF (kondisiKuku EQUAL "panjang")
@@ -9,6 +9,7 @@ START
             ELSE IF (kondisiKuku EQUAL "pendek")
                 PRINT siswa dipuji oleh guru
             END IF 
+            INCREMENT by 1 
         END FOR 
 END
 

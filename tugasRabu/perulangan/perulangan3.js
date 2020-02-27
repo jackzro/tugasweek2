@@ -10,14 +10,14 @@ for (i=1;i<=100;i++)
         }    
     //console.log("counter sekarang: "+ i)
 }
-console.log("counter pertambahan 2")
+console.log("Counter Pertambahan 2")
 
 for(i=1;i<=100;i+=2)
 {
     console.log(i)
     if(i%3==0)
     {
-        console.log(i +'KELIPATAN'+ 3)
+        console.log(i +' KELIPATAN '+ 3)
     }
     else {
         console.log(" ")
@@ -26,7 +26,7 @@ for(i=1;i<=100;i+=2)
 
 
 }
-console.log("counter pertambahan 5")
+console.log("Counter Pertambahan 5")
 
 
 for(i=1;i<=100;i+=5)
@@ -34,7 +34,7 @@ for(i=1;i<=100;i+=5)
     console.log(i)
     if(i%6==0)
     {
-        console.log(i +'KELIPATAN'+ 6)
+        console.log(i +' KELIPATAN '+ 6)
     }
     else {
         console.log(" ")
@@ -42,14 +42,14 @@ for(i=1;i<=100;i+=5)
     //console.log("counter sekarang: "+i)
 }
 
-console.log("counter pertambahan 9")
+console.log("Counter Pertambahan 9")
 
 for(i=1;i<=100;i+=9)
 {
     console.log(i)
     if(i%10==0)
     {
-        console.log(i +'KELIPATAN'+ 10)
+        console.log(i +' KELIPATAN '+ 10)
     }
     else {
         console.log(" ")

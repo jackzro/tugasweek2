@@ -26,3 +26,41 @@ START
         END IF
 
 END
+
+
+
+/* Laundry */
+
+START 
+    SET pakaian to 0
+        FOR pakaian 0 to 20 
+            INCREMENT pakaian by 1
+                IF (pakaian EQUAL 20)
+                    THEN
+                    PRINT pakaian sudah dimasukkan semua 
+                ELSE
+                    PRINT pakaian belum dimasukkan semua 
+                END IF
+        END FOR 
+END
+
+/* Periksa Kuku */
+
+START
+    SET anak to 1
+    SET kondisiKuku to any value
+        FOR anak 1 to 40
+            READ kondisiKuku
+            IF (kondisiKuku EQUAL "panjang")
+                THEN
+                PRINT siswa dihukum oleh guru
+            ELSE IF (kondisiKuku EQUAL "pendek")
+                PRINT siswa dipuji oleh guru
+            END IF 
+            INCREMENT by 1
+        END FOR 
+END
+
+        
+
+
