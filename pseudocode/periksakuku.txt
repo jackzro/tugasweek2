@@ -1,0 +1,15 @@
+START
+    SET anak to 1
+    SET kondisiKuku
+        FOR anak 1 to 40
+            READ kondisiKuku
+            IF (kondisiKuku EQUAL "panjang")
+                THEN
+                PRINT siswa dihukum oleh guru
+            ELSE IF (kondisiKuku EQUAL "pendek")
+                PRINT siswa dipuji oleh guru
+            END IF 
+        END FOR 
+END
+
+        

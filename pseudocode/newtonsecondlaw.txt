@@ -1,0 +1,13 @@
+START
+    
+    SET mass to 600 
+    SET acceleration to 2
+    SET resultant force to 0
+    
+    CALCULATE resultant force as mass times acceleration
+    PRINT resultant force 
+
+END
+
+
+
