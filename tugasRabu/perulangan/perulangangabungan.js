@@ -37,10 +37,10 @@ for (i=1;i<=100;i++)
 {
     console.log(i)
         if(i%2==0){
-            console.log('genap')
+            console.log('GENAP')
         }
         else {
-            console.log('ganjil')
+            console.log('GANJIL')
         }    
 }
 console.log("Counter Pertambahan 2")
