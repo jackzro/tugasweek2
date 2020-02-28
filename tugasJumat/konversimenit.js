@@ -8,7 +8,7 @@ function konversiMenit(menit) {
     }
     else 
     {
-    return y+':0'+ konversi 
+        return y+':0'+ konversi 
     }
     
   }

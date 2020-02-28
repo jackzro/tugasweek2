@@ -14,7 +14,6 @@ function xo(str) {
             countY++
         }
     }
-    //console.log(countY,countX)
     if (countY==countX){
         return true
     }
